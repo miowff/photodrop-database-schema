@@ -1,0 +1,15 @@
+{
+  "name": "photo-drop-database-schema",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.28.6",
+    "mysql2": "^3.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
