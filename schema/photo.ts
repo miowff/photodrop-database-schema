@@ -9,4 +9,5 @@ export const photos = mysqlTable("Photos", {
   photoName: varchar("PhotoName", {
     length: 256,
   }).notNull(),
+  blurHash: varchar("BlurHash", { length: 256 }).notNull(),
 });
