@@ -8,6 +8,5 @@ export const photos = mysqlTable("Photos", {
   albumTitle: varchar("AlbumTitle", { length: 256 }).notNull(),
   photoName: varchar("PhotoName", {
     length: 256,
-  }).notNull(),
-  blurHash: varchar("BlurHash", { length: 256 }).notNull(),
+  }).notNull()
 });
