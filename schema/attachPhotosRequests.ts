@@ -6,5 +6,5 @@ export const attachPhotosRequests = mysqlTable("AttachPhotosRequests", {
   albumId: varchar("AlbumId", { length: 70 })
     .references(() => albums.id)
     .notNull(),
-  phoneNumbers: varchar("PhoneNUmbers", { length: 256 }).notNull(),
+  phoneNumbers: varchar("PhoneNumbers", { length: 256 }).notNull(),
 });
